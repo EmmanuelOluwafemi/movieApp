@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const StyledMovieThumb = styled.div`
+  position: relative;
+
   img {
     width: 100%;
     height: auto;
@@ -31,6 +33,26 @@ export const StyledMovieThumb = styled.div`
 
     .clickable {
       cursor: pointer;
+    }
+  }
+
+  .love {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    outline: none;
+
+    i {
+      color: rgba(255, 255, 255, .8);
+      font-size: 2em;
+      transition: all ease-in .3s;
+
+      
+    }
+    .red {
+      color: red;
     }
   }
 `;

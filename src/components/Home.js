@@ -76,8 +76,10 @@ const Home = () => {
                         }
                         movieId = {movie.id}
                         movieName = {movie.original_title}
+                        movie = {movie}
                     />
                 ))}
+
             </Grid>
             { loading && <Spinner /> }
             {currentPage < totalPages && !loading && (
