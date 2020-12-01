@@ -18,6 +18,7 @@ export const StyledHeader = styled.div`
       font-size: 2.2rem;
       font-weight: bold;
       color: #fff;
+      text-decoration: none;
     }
 
     .navLink {
