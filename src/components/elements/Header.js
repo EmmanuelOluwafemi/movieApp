@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from '@reach/router';
 
-import RMDBLogo from '../images/reactMovie_logo.png';
 
 // Import Style
 import { 
-    StyledHeader, 
-    StyledRMDBLogo,
+    StyledHeader,
 } from '../styles/StyledHeader';
 
 const Header = () => (
